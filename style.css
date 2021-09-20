@@ -1,0 +1,58 @@
+body {
+    color: #333;
+    font-family: sans-serif;
+    background: #000;
+}
+input {
+    display: block;
+    width: 96%;
+    padding: 6px;
+    margin: 12px auto;
+    box-sizing: border-box;
+    border: none;
+    border-top: 2px solid #48e;
+    background: transparent;
+    outline: none !important;
+    transition: background 0.3s;
+    color: #fff;
+}
+input::placeholder {
+    color: #48e;
+    transition: color 0.3s;
+}
+h2 {
+    font-family: monospace;
+    color: #fff;
+    margin-bottom: 36px;
+}
+input:hover {
+    background: #26a;
+}
+input:hover::placeholder {
+    color: #fff;
+}
+input[type="submit"]{
+    width: 60%;
+    margin: 18px 2%;
+    margin-bottom: 12px;
+    padding: 12px;
+    background: #26a;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    background: #048;
+}
+form {
+    width: 86%;
+    margin: auto;
+    background: #012;
+    padding: 30px;
+}
+.green {
+    color: green;
+    font-family: monospace;
+}
+.red {
+    color: red;
+    font-family: monospace;
+}
